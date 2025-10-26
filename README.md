@@ -206,7 +206,7 @@ It will skip the files that have already been downloaded.
 
 ![](./docs/assets/hanime1me/restart.gif)
 
-### Download playlist
+### Download a playlist
 
 ```sh
 $ hani dl https://hanime1.me/playlist?list=xxxx
@@ -214,7 +214,7 @@ $ hani dl https://hanime1.me/playlist?list=xxxx
 
 ![](./docs/assets/hanime1me/playlist.gif)
 
-### Specify the output directory
+### Specify the desired output directory
 
 ```sh
 # The anime will be saved in output_dir/anime_series_title/
@@ -229,7 +229,7 @@ $ hani dl -o <output_dir>
 $ hani dl -q "720p" https://hanime1.me/watch?v=xxxx
 ```
 
-### Get info only
+### Get video info only
 
 ```sh
 # Get only the downloadable video info:
@@ -306,3 +306,4 @@ Feel free to create issues to report bugs or request new features.
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=acgtools/hanime-hunter&type=Date)](https://star-history.com/#acgtools/hanime-hunter&Date)
+
